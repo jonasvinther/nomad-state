@@ -1,4 +1,4 @@
-job "hello_world" {
+job "hello_world_test" {
   
   datacenters = [
   "dc1"
