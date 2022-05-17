@@ -8,7 +8,7 @@ job "traefik" {
   
   constraint {
     attribute = "${meta.type}"
-    value     = "server"
+    value     = "client"
   }
   
   constraint {
