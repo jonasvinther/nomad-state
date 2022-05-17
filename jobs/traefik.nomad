@@ -4,7 +4,7 @@ job "traefik" {
   datacenters = [
   "dc1"
 ]
-  type        = "system"
+  type        = "service"
   
   constraint {
     attribute = "${meta.type}"
