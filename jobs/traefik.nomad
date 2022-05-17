@@ -5,18 +5,9 @@ job "traefik" {
   "dc1"
 ]
   type        = "service"
-  
-  constraint {
-    attribute = "${meta.type}"
-    value     = "client"
-  }
-  
-  constraint {
-    attribute = "${attr.kernel.name}"
-    value     = "linux"
-  }
 
   group "traefik" {
+    count = 1
 
     network {
       mode = "bridge"
