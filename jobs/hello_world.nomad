@@ -19,7 +19,7 @@ job "hello_world_v1" {
       name = "webapp"
       tags = [
   "traefik.enable=true",
-  "traefik.http.routers.webapp.rule=Host(`hello-world.crunk.dk`)"
+  "traefik.http.routers.webapp.rule=Path(`/hello`)",
 ]
       port = "http"
 
