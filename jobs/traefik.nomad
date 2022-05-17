@@ -7,6 +7,11 @@ job "traefik" {
   type        = "service"
   
   constraint {
+    attribute = "${meta.type}"
+    value     = "client"
+  }
+  
+  constraint {
     attribute = "${attr.kernel.name}"
     value     = "linux"
   }
