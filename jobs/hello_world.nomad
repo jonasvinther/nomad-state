@@ -1,7 +1,7 @@
 job "hello_world_v2" {
   
    meta {
-    my-key = "my-value1"
+    my-key = "my-value"
   }
   
   datacenters = [
@@ -10,11 +10,11 @@ job "hello_world_v2" {
   type = "service"
 
   group "app" {
-    count = 2
+    count = 1
 
     network {
       port "http" {
-        to = 8081
+        to = 8080
       }
     }
 
