@@ -6,7 +6,7 @@ job "hello_world_v2" {
   type = "service"
 
   group "app" {
-    count = 2
+    count = 1
 
     network {
       port "http" {
@@ -49,7 +49,7 @@ job "hello_world_v2" {
       }
 
       env {
-        MESSAGE = "Hello from Nomad"
+        MESSAGE = "Hello from Nomad..."
       }
     }
   }
