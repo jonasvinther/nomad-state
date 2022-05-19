@@ -14,7 +14,7 @@ job "hello_world_v2" {
 
     network {
       port "http" {
-        to = 8090
+        to = 8080
       }
     }
 
