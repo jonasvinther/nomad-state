@@ -6,7 +6,7 @@ job "hello_world_v2" {
   type = "service"
 
   group "app" {
-    count = 1
+    count = 3
 
     network {
       port "http" {
