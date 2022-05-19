@@ -1,7 +1,7 @@
 job "hello_world_v2" {
   
    meta {
-    my-key = "my-value"
+    my-key = "my-value1"
   }
   
   datacenters = [
