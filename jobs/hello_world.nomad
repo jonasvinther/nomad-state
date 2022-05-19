@@ -23,7 +23,7 @@ job "hello_world_v2" {
       name = "webapp"
       tags = [
   "traefik.enable=true",
-  "traefik.http.routers.webapp.rule=Path(`/pie`)",
+  "traefik.http.routers.webapp.rule=Path(`/hello`)",
 ]
       port = "http"
 
