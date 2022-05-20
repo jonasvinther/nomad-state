@@ -8,7 +8,7 @@ job "traefik" {
 
     network {
       port "http" {
-        static = 81
+        static = 80
       }
 
       port "api" {
