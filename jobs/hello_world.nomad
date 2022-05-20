@@ -1,4 +1,4 @@
-job "hello_world_v2" {
+job "hello_world_v1" {
   
    meta {
     my-key = "my-value"
