@@ -53,7 +53,7 @@ job "hello_world_v1" {
       }
 
       env {
-        MESSAGE = "Hello from Nomad..."
+        MESSAGE = "Hello from Nomad...."
       }
     }
   }
