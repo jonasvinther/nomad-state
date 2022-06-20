@@ -24,7 +24,7 @@ job "traefik" {
         type     = "tcp"
         port     = "http"
         interval = "10s"
-        timeout  = "2s"
+        timeout  = "5s"
       }
     }
 
