@@ -21,6 +21,7 @@ job "hello_world_v1" {
     
     service {
       name = "webapp"
+      provider = "nomad"
       tags = [
   "traefik.enable=true",
   "traefik.http.routers.webapp.rule=Path(`/hello`)",
